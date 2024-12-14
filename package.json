@@ -1,0 +1,23 @@
+{
+  "name": "assistant-onchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "openai": "^4.76.2",
+    "readline": "^1.3.0",
+    "typescript": "^5.7.2",
+    "viem": "^2.21.55"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
